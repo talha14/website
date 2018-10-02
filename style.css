@@ -1,0 +1,42 @@
+*  {margin:0; padding:0; border: 0; line-height: 100%; font-size: 100%;}
+.body {
+    background-color: #0a0e2d;
+    color: white;
+    font: Verdana;
+    height: 100vh;
+}
+
+.logo img {
+        height: auto;
+        max-width: 15%;
+        float: left;
+        padding-top: 2vh;
+        padding-left: 2vh;
+
+}
+
+.navBar {
+    float: right;
+    list-style: none;
+    margin-top: 5vh;
+    padding-right: 2vh;
+}
+
+.navBar li {
+    display: inline-block;
+    color: white;
+    font-size: 2vh;
+    margin-left: 4vh;
+}
+
+.navBar li a:hover {
+    color: white;
+    border-bottom: 0.3vh solid white;
+    padding-bottom: 0.5vh;
+    transition:all 0.5s ease-in;
+}
+
+.navBar li a{
+    text-decoration: none;
+    color:#A0EFEF;
+}
